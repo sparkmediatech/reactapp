@@ -1,0 +1,80 @@
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0 40px;
+  display: flex;
+  flex-direction: column;
+}
+.wrapper {
+  display: flex;
+  margin-top: 50px;
+  font-family: "Lato", sans-serif;
+}
+.inputBox {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-left: 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+.btn {
+  margin-left: 10px;
+  padding: 8px 35px 8px 35px;
+  cursor: pointer;
+  background-color: #49a6e9;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+}
+h3 {
+  margin-top: 10px;
+}
+.errorInput {
+  border: 2px solid #e74c3c;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.colors {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+.singlecolorContainer {
+  display: flex;
+  flex-direction: column;
+  height: 20vh;
+  width: 16%;
+  margin-left: 5px;
+  margin-top: 30px;
+  padding-left: 20px;
+  font-family: "Lato", sans-serif;
+}
+.textColor {
+  color: #fdfefe;
+  font-family: "Lato", sans-serif;
+}
+.copyBTN {
+  cursor: pointer;
+  width: 55%;
+  border-radius: 3px;
+  margin-top: 5px;
+  transition: 0.2s ease-in-out;
+  transform: scale(1);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.copyBTN2 {
+  transform: scale(0);
+}
+.paraClass {
+  margin-top: 5px;
+}
+.htmlValue {
+  margin-top: 7px;
+}
